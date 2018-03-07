@@ -146,6 +146,7 @@ natasha.forward(50)
 ###############################################################################
 
 aris = rg.SimpleTurtle()
+aris.forward(100)
 aris.right(90)
 aris.forward(100)
 aris.left(90)
@@ -169,11 +170,11 @@ aris.forward(100)
 #
 ###############################################################################
 matasha = rg.SimpleTurtle('turtle')
-matasha.pen = rg.Pen('blue', 30)  # Second argument is the Pen's thickness
+matasha.pen = rg.Pen('red', 30)  # Second argument is the Pen's thickness
 matasha.speed = 10  # Faster
 
-matasha.forward(100)
-matasha.right(90)
+matasha.forward(200)
+matasha.left(90)
 matasha.forward(50)
 
 # -----------------------------------------------------------------------------
