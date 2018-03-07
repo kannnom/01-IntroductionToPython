@@ -170,7 +170,7 @@ aris.forward(100)
 #
 ###############################################################################
 matasha = rg.SimpleTurtle('turtle')
-matasha.pen = rg.Pen('red', 30)  # Second argument is the Pen's thickness
+matasha.pen = rg.Pen('blue', 30)  # Second argument is the Pen's thickness
 matasha.speed = 10  # Faster
 
 matasha.forward(200)
